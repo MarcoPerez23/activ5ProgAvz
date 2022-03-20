@@ -1,0 +1,19 @@
+{
+  "name": "nobels",
+  "version": "1.0.0",
+  "description": "activ4_prog_avz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "api",
+    "nobel_prize"
+  ],
+  "author": "Marco Perez",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^17.1.2"
+  }
+}
