@@ -1,7 +1,14 @@
+
 var boton_solicitud = document.getElementById('solicitud')
 var tabla_resultados = document.getElementById('tabla_resultados')
 var joke_categories = document.getElementById('joke_categories')
 var jokes_quantity = document.getElementById('jokes_quantity')
+
+
+guardarBD.addEventListener('click', ()=>
+    console.log('23'),
+    window.comunicacion.createJoke({category: 'Nerdy', joke: 'haha'})
+)
 
 boton_solicitud.addEventListener('click', () => {
 
